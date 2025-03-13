@@ -3,7 +3,7 @@
 const fetch = require('node-fetch');
 
 // Replace this with your actual API key from Fixer
-const accessKey = '666c05b3c8767fc7b09a6811e5b86135';
+const accessKey = process.env.API_KEY;
 
 // Make the API request for latest rates
 fetch(`http://data.fixer.io/api/latest?access_key=${accessKey}`)

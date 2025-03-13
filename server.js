@@ -5,7 +5,7 @@ const cors = require('cors');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const ACCESS_KEY = '666c05b3c8767fc7b09a6811e5b86135';
+const ACCESS_KEY = process.env.API_KEY;
 
 // Enable CORS and JSON body parsing
 app.use(cors());

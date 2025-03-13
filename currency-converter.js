@@ -1,6 +1,6 @@
 const fetch = require('node-fetch'); // If you're using Node.js < 18
 
-const accessKey = '666c05b3c8767fc7b09a6811e5b86135';
+const accessKey = process.env.API_KEY;
 
 // Our Fixer API call
 async function convertCurrency(from, to, amount) {

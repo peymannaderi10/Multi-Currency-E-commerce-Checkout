@@ -86,12 +86,10 @@ const products = [
       if (data.success) {
         exchangeRates = data.rates;
         baseCurrency = data.base; // Usually 'EUR' for free plan
-        console.log('Exchange rates:', exchangeRates);
-
+        
         // Add the base currency rate (1.0)
         exchangeRates[baseCurrency] = 1.0;
-        console.log('Exchange rates:', exchangeRates);
-
+        
         // Update UI with new rates
         updatePricesDisplay();
         
