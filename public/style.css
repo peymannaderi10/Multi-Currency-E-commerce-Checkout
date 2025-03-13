@@ -1,0 +1,19 @@
+.currency-flag {
+    width: 20px;
+    margin-right: 5px;
+  }
+  .product-card {
+    transition: transform 0.3s;
+  }
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  }
+  .price-tag {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  #cart-total {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
