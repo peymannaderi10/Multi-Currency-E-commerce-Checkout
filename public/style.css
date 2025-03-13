@@ -17,3 +17,10 @@
     font-size: 1.5rem;
     font-weight: bold;
   }
+  .card-img-top {
+    width: 100%;
+    height: 400px; /* Adjust height as needed */
+    object-fit: cover; /* Ensures the image fills the space without distortion */
+    border-top-left-radius: 8px; /* Optional: Match card border-radius */
+    border-top-right-radius: 8px;
+}
